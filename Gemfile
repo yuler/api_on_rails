@@ -68,3 +68,5 @@ group :test do
 end
 
 gem "jwt", "~> 2.7"
+
+gem "faker", "~> 3.2"
