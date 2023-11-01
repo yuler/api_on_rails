@@ -119,6 +119,8 @@ GEM
     jbuilder (2.11.5)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
+    jsonapi-serializer (2.2.0)
+      activesupport (>= 4.2)
     jwt (2.7.1)
     loofah (2.21.4)
       crass (~> 1.0.2)
@@ -144,6 +146,8 @@ GEM
     net-smtp (0.4.0)
       net-protocol
     nio4r (2.5.9)
+    nokogiri (1.15.4-arm64-darwin)
+      racc (~> 1.4)
     nokogiri (1.15.4-x86_64-darwin)
       racc (~> 1.4)
     psych (5.1.1.1)
@@ -209,6 +213,7 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
+    sqlite3 (1.6.7-arm64-darwin)
     sqlite3 (1.6.7-x86_64-darwin)
     stimulus-rails (1.3.0)
       railties (>= 6.0.0)
@@ -236,6 +241,7 @@ GEM
     zeitwerk (2.6.12)
 
 PLATFORMS
+  arm64-darwin-21
   x86_64-darwin-21
 
 DEPENDENCIES
@@ -246,6 +252,7 @@ DEPENDENCIES
   faker (~> 3.2)
   importmap-rails
   jbuilder
+  jsonapi-serializer (~> 2.2)
   jwt (~> 2.7)
   puma (>= 5.0)
   rails (~> 7.1.1)
